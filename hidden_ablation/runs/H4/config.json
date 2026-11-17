@@ -1,0 +1,13 @@
+{
+ "name": "H4",
+ "kind": "hidden",
+ "seed": 4,
+ "steps": 3000,
+ "threads": 3,
+ "lam_img": 0.7,
+ "lam_key": 1.0,
+ "init_seed": 4,
+ "train_seconds": 2131.386605978012,
+ "enc_params": 9665,
+ "dec_params": 331200
+}

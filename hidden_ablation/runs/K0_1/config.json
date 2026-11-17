@@ -1,0 +1,13 @@
+{
+ "name": "K0_1",
+ "kind": "key0",
+ "seed": 1,
+ "steps": 3000,
+ "threads": 3,
+ "lam_img": 0.7,
+ "lam_key": 1.0,
+ "init_seed": 1,
+ "train_seconds": 886.8647320270538,
+ "enc_params": 1111105,
+ "dec_params": 331200
+}

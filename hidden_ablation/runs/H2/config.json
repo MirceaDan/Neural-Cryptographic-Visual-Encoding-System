@@ -1,0 +1,13 @@
+{
+ "name": "H2",
+ "kind": "hidden",
+ "seed": 2,
+ "steps": 3000,
+ "threads": 3,
+ "lam_img": 0.7,
+ "lam_key": 1.0,
+ "init_seed": 2,
+ "train_seconds": 2222.2916448116302,
+ "enc_params": 9665,
+ "dec_params": 331200
+}

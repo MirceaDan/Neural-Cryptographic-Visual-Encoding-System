@@ -1,0 +1,13 @@
+{
+ "name": "HL0",
+ "kind": "hidden",
+ "seed": 0,
+ "steps": 3000,
+ "threads": 2,
+ "lam_img": 0.05,
+ "lam_key": 1.0,
+ "init_seed": 0,
+ "train_seconds": 2822.2465834617615,
+ "enc_params": 9665,
+ "dec_params": 331200
+}
