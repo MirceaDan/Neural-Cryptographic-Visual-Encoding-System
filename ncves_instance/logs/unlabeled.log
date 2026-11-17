@@ -1,0 +1,2 @@
+pca {'K0_digital': 0.5, 'K0_L2': 0.496, 'K32_digital': 0.023, 'K32_L2': 0.057, 'K100_digital': 0.0, 'K100_L2': 0.013, 'K1000_digital': 0.0, 'K1000_L2': 0.0, 'K2000_digital': 0.0, 'K2000_L2': 0.0} oracle corr 0.436
+ae {'K0_digital': 0.508, 'K0_L2': 0.508, 'K32_digital': 0.118, 'K32_L2': 0.123, 'K100_digital': 0.0, 'K100_L2': 0.0, 'K1000_digital': 0.0, 'K1000_L2': 0.0, 'K2000_digital': 0.0, 'K2000_L2': 0.0} oracle corr 0.449

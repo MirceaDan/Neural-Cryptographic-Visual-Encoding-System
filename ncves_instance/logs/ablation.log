@@ -1,0 +1,3 @@
+grid {'digital': {'dec1': 0.0, 'dec2': 0.0}, 'L2': {'dec1': 0.0029, 'dec2': 0.0034}}
+randenc1 {'digital': {'dec1': 0.5007, 'dec2': 0.5005}, 'L2': {'dec1': 0.5007, 'dec2': 0.5005}}
+randenc2 {'digital': {'dec1': 0.5007, 'dec2': 0.5005}, 'L2': {'dec1': 0.5007, 'dec2': 0.5005}}

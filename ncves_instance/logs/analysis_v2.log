@@ -1,0 +1,101 @@
+{
+ "weight_noise": {
+  "0": {
+   "digital": 0.0,
+   "L2": 3.125e-05
+  },
+  "0.001": {
+   "digital": 0.0,
+   "L2": 3.125e-05
+  },
+  "0.01": {
+   "digital": 0.0,
+   "L2": 3.125e-05
+  },
+  "0.03": {
+   "digital": 0.0,
+   "L2": 3.6458333333333336e-05
+  },
+  "0.1": {
+   "digital": 0.0,
+   "L2": 7.291666666666667e-05
+  },
+  "0.3": {
+   "digital": 0.0005,
+   "L2": 0.002229166666666666
+  },
+  "1.0": {
+   "digital": 0.21666145833333336,
+   "L2": 0.2736041666666667
+  }
+ },
+ "interpolation_to_B_r1": {
+  "0": 0.0,
+  "0.1": 0.0,
+  "0.25": 7.8125e-05,
+  "0.5": 0.238953125,
+  "0.75": 0.49384375,
+  "0.9": 0.49409375,
+  "1": 0.493953125
+ },
+ "fingerprint_identification": {
+  "n_classes": 13,
+  "chance": 0.07692307692307693,
+  "acc_digital": 1.0,
+  "acc_L2": 0.8770769192622259
+ },
+ "fingerprint_necessity": {
+  "orig_code_minus_mu_orig_plus_mu_B_r1": 0.0,
+  "B_r1_code_plus_fingerprint_shift_to_orig_decoded_by_orig": 0.491375,
+  "orig_code_minus_mu_orig_plus_mu_B_r2": 0.0,
+  "B_r2_code_plus_fingerprint_shift_to_orig_decoded_by_orig": 0.494953125,
+  "orig_code_unchanged": 0.0,
+  "orig_code_fingerprint_mean_removed(const)": 0.0,
+  "B_r1_code_decoded_by_orig": 0.49503125,
+  "B_r1_code_decoded_by_orig_after_mean_shift": 0.491375
+ },
+ "code_similarity_same_message": {
+  "B_r1": 0.0019815047561368274,
+  "B_r2": 0.004632082585145268,
+  "B_r3": 0.00010382783332942625,
+  "B_r4": 0.00529516041305956,
+  "B_r5": 0.01837853232946598,
+  "C_batch64": 0.004314885337005083,
+  "C_diffinit_samedata": 0.007018773983779566,
+  "C_lr2x": 0.007741438900650559,
+  "C_lrhalf": -0.0002887171613401283,
+  "C_onlynoise_seed": 0.6485379448648975,
+  "C_sameinit_diffdata": 0.6121786483821345,
+  "C_steps1500": 0.00940847331040855
+ },
+ "code_similarity_diff_message_same_instance": 0.004472212711933727,
+ "mean_fingerprint_energy_fraction": {
+  "B_r1": 0.5301571488380432,
+  "B_r2": 0.4052540361881256,
+  "B_r3": 0.44005244970321655,
+  "B_r4": 0.5469599962234497,
+  "B_r5": 0.5954525470733643,
+  "C_batch64": 0.6320875883102417,
+  "C_diffinit_samedata": 0.3913736939430237,
+  "C_lr2x": 0.48982441425323486,
+  "C_lrhalf": 0.2133312225341797,
+  "C_onlynoise_seed": 0.39498457312583923,
+  "C_sameinit_diffdata": 0.327487051486969,
+  "C_steps1500": 0.4199671447277069,
+  "orig": 0.2881641983985901
+ },
+ "decoder_only_forgery": {
+  "orig_decodes_digital": 0.0,
+  "orig_decodes_L2": 0.0075,
+  "B_r1_decodes_forgery_digital": 0.4973958333333333,
+  "B_r2_decodes_forgery_digital": 0.49135416666666665,
+  "pixel_mse_to_genuine_code": 0.05376524478197098,
+  "classified_as_orig_fraction": 0.7266666889190674
+ },
+ "xor_key_baseline_NOT_primary": {
+  "note": "msg XOR k before encoding; attacker holds full original instance but not k",
+  "right_key_ber": 3.125e-05,
+  "right_key_after_unxor": 3.125e-05,
+  "wrong_key_ber": 0.34375
+ }
+}

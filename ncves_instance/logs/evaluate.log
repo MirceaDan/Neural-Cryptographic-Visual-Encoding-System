@@ -1,0 +1,14 @@
+B_r1                   digital:0.494 L2:0.495 L3:0.498
+B_r2                   digital:0.495 L2:0.500 L3:0.499
+B_r3                   digital:0.505 L2:0.502 L3:0.501
+B_r4                   digital:0.491 L2:0.495 L3:0.497
+B_r5                   digital:0.477 L2:0.474 L3:0.476
+C_batch64              digital:0.498 L2:0.492 L3:0.491
+C_diffinit_samedata    digital:0.496 L2:0.498 L3:0.499
+C_lr2x                 digital:0.488 L2:0.487 L3:0.484
+C_lrhalf               digital:0.503 L2:0.505 L3:0.503
+C_onlynoise_seed       digital:0.043 L2:0.057 L3:0.078
+C_sameinit_diffdata    digital:0.067 L2:0.082 L3:0.106
+C_steps1500            digital:0.493 L2:0.495 L3:0.497
+orig                   digital:0.000 L2:0.000 L3:0.003
+{'enc_params': 1078337, 'dec_params': 331200, 'enc_bytes': 4317495, 'dec_bytes': 1330367, 'payload_bits': 32, 'info_bits': 24, 'bits_per_pixel': 0.0078125, 'decode_ms_per_code_cpu1thread': 0.41684985160827637, 'encode_ms_per_code_cpu1thread': 0.8367276191711426, 'train_seconds_orig': 565.8980984687805}
